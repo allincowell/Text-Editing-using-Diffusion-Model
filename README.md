@@ -42,8 +42,8 @@ This innovative approach not only simplifies the image editing process but also 
 ### Installation
 
 Clone this repository:
-`git clone https://github.com/yourusername/text-based-image-editing.git`
-`cd text-based-image-editing`
+1. `git clone https://github.com/yourusername/text-based-image-editing.git`
+2. `cd text-based-image-editing`
 
 Install the required dependencies:
 `pip install -r requirements.txt`
