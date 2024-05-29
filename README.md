@@ -42,22 +42,18 @@ This innovative approach not only simplifies the image editing process but also 
 ### Installation
 
 Clone this repository:
-\`\`\`bash
-git clone https://github.com/yourusername/text-based-image-editing.git
-cd text-based-image-editing
-\`\`\`
+`git clone https://github.com/yourusername/text-based-image-editing.git`
+`cd text-based-image-editing`
 
 Install the required dependencies:
-\`\`\`bash
-pip install -r requirements.txt
-\`\`\`
+`pip install -r requirements.txt`
 
 ### Usage
 
 Run the pipeline with your own images and text descriptions:
-\`\`\`bash
-python main.py --image_path /path/to/image --description "A description of the desired edit"
-\`\`\`
+`python main.py --image_path /path/to/image --description "A description of the desired edit"`
+
+You can directly use the run.sh file and make edits in the variables: `IMAGE_PATH, OUTPUT_DIR, SEGMENT_PROMPT` and `REPLACE_PROMPT`. Then use the command `bash run.sh`.
 
 ### Examples
 
